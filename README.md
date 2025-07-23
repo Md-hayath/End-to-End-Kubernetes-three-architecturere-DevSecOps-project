@@ -5,8 +5,8 @@ Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Promethe
 
 Thanks! Based on your detailed input, here's a clear, step-by-step guide with each action properly formatted and numbered — covering the entire flow from EC2 creation to Jenkins and Terraform integration, as requested.
 
-✅ Step-by-Step Jenkins + Jump Server Setup (with Line Numbers)
-🔧 PART A: Jenkins EC2 Setup (t2.xlarge)
+  Step-by-Step Jenkins + Jump Server Setup (with Line Numbers)
+  PART A: Jenkins EC2 Setup (t2.xlarge)
 1. Create an EC2 instance with the following specs:
 
 Instance type: t2.xlarge
@@ -70,7 +70,7 @@ Stage View
 
 Manage Jenkins → Manage Plugins → Install plugins above if not already.
 
-🔐 PART C: Jenkins IAM Credential Setup
+  PART C: Jenkins IAM Credential Setup
 10. Navigate to:
 
 Manage Jenkins → Credentials → (global) → Add Credentials
@@ -91,7 +91,7 @@ Paste Access & Secret Keys
 
 ID: aws-creds (for reference in pipeline)
 
-🧱 PART D: Terraform Plugin and Tools Configuration
+  PART D: Terraform Plugin and Tools Configuration
 13. Go to:
 
 Manage Jenkins → Global Tool Configuration
@@ -109,7 +109,7 @@ whereis terraform
 # Example output: /usr/bin/terraform
 Paste this path in the Terraform installation section in Jenkins.
 
-📂 PART E: Jenkinsfile Pipeline (with Terraform)
+  PART E: Jenkinsfile Pipeline (with Terraform)
 16. Clone or fetch the repo that contains:
 
 Terraform code (main.tf)
@@ -134,14 +134,14 @@ terraform apply – applies infra changes
 
 Make sure conditional logic exists for choice parameters if needed
 
-👁️ PART F: Jenkins Stage View
+ PART F: Jenkins Stage View
 19. Install Stage View plugin (if not already)
 
 20. After building a pipeline, go to the project → Stage View tab
 
 You’ll see visual breakdown of all stages: Init → Plan → Apply, etc.
 
-🌐 PART G: Jump Server EC2 Setup (t2.medium)
+ PART G: Jump Server EC2 Setup (t2.medium)
 21. Create a second EC2 instance:
 
 Type: t2.medium
@@ -175,7 +175,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 Use the same IAM credentials added to Jenkins.
 
-⏳ PART H: Wait for EKS Cluster Creation via Jenkins
+ PART H: Wait for EKS Cluster Creation via Jenkins
 26. After running Jenkins pipeline that provisions EKS (if defined in Terraform):
 
 Wait until cluster is created successfully
