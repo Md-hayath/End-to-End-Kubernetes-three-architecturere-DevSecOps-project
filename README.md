@@ -3,6 +3,22 @@ Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Promethe
 
 ![Three Tier Architecture](https://github.com/Md-hayath/yml/blob/82ad248468aeb229b37392aa0eb39f3b5f14b5c1/Three-Tier.gif?raw=true)
 
+## project implementation is divided into 3 Parts
+
+# PART A
+## Automating Infrastructure
+  ### EC2:Terraform,Jenkins,VPC,EKS
+
+# PART B
+  ## CICD
+  ### Jenkins + ArgoCD----->EKS
+
+# PART C 
+  ## Monitoring
+  ### promethius,Grafana
+
+
+
 ## Project Introduction:
 Welcome to the End-to-End DevSecOps Kubernetes Project guide! In
 this comprehensive project, we will walk through the process of
