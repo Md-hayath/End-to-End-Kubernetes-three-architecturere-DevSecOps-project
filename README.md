@@ -3,9 +3,7 @@ Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Promethe
 
 ![Three Tier Architecture](https://github.com/Md-hayath/yml/blob/82ad248468aeb229b37392aa0eb39f3b5f14b5c1/Three-Tier.gif?raw=true)
 
-Thanks! Based on your detailed input, here's a clear, step-by-step guide with each action properly formatted and numbered — covering the entire flow from EC2 creation to Jenkins and Terraform integration, as requested.
 
-  Step-by-Step Jenkins + Jump Server Setup (with Line Numbers)
   PART A: Jenkins EC2 Setup (t2.xlarge)
 1. Create an EC2 instance with the following specs:
 
