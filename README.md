@@ -1,12 +1,11 @@
 # End-to-End-Kubernetes-three-architecturere-DevSecOps-project
 Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins
 
-![Three Tier Architecture](https://github.com/Md-hayath/yml/blob/82ad248468aeb229b37392aa0eb39f3b5f14b5c1/Three-Tier.gif?raw=true)
+![Three Tier Architecture](https://github.com/Md-hayath/yml/blob/82ad248468aeb229b37392aa0eb39f3b5f14b5c1/Three-Tier.gif?raw=truei)
 
 # Three-Tier Web Application Deployment on AWS EKS using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins
-[![LinkedIn](https://linkedin.com/in/mohammed-hayath-b675a0259/ )
+[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://linkedin.com/in/mohammed-hayath-b675a0259/ )
 
-![Three-Tier Banner](assets/Three-Tier.gif)
 
 Welcome to the Three-Tier Web Application Deployment project! 🚀
 
