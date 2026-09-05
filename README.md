@@ -50,8 +50,7 @@ The `Kubernetes-Manifests-Files` directory holds Kubernetes manifests for deploy
 
 ## Getting Started
 
-## Contributing
-We welcome contributions! If you have ideas for enhancements or find any issues, please open a pull request or file an issue.
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
